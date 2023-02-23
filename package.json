@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "prettier": "2.8.4"
+  },
+  "name": "projet_dactapp",
+  "description": "Site d'aide à la frappe au clavier.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorGreiveldingerHub/Projet_DacTapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorGreiveldingerHub/Projet_DacTapp/issues"
+  },
+  "homepage": "https://github.com/VictorGreiveldingerHub/Projet_DacTapp#readme"
+}
