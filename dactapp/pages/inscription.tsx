@@ -4,7 +4,7 @@ import styles from "@/styles/Inscription.module.css";
 const Inscription = () => {
   return (
     <div className={styles.container}>
-      <form action="/signup" method="post">
+      <form action="/inscription" method="post">
         {/* Ajouter la civilité ? */}
         <div>
           <label htmlFor="firstname">Nom :</label>

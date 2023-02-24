@@ -5,9 +5,6 @@ import styles from "@/styles/Connexion.module.css";
 const Connexion = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.left}>
-        <span>Dys en image qui fait quelque chose</span>
-      </div>
       <div className="left-container">
         <form action="" method="post" className="form-example">
           <div className="form-example">
