@@ -1,8 +1,6 @@
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Accueil.module.css";
 
-// const inter = Inter({ subsets: ['latin'] });
-
 const Accueil = () => {
   return (
     <div className={styles.container}>

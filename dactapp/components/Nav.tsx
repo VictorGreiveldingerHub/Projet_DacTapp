@@ -1,9 +1,11 @@
 import Link from "next/link";
 
+import styles from "../styles/Nav.module.css";
+
 // Header du site
 const Nav = () => {
   return (
-    <nav className="navigation-container">
+    <nav className={styles.container}>
       <Link href="/">Accueil</Link>
       <Link href="/jeux">Jeux</Link>
       <Link href="/profil">Profil</Link>

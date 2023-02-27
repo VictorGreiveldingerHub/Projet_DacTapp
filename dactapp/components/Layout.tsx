@@ -1,6 +1,8 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
 
+import styles from "../styles/Layout.module.css";
+
 // ==> Gestion des types
 interface IProps {
   children: ReactNode;
@@ -11,7 +13,7 @@ import Footer from "../components/Footer";
 
 const Layout = ({ children }: IProps) => {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>DacTapp, mieux vivre avec Dys.</title>
       </Head>

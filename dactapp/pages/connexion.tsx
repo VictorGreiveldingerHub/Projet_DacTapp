@@ -30,7 +30,8 @@ const Connexion = () => {
         </div>
         <div>
           <span>
-            Pas encore inscrit ? <Link href="/signup">S'inscrire ici.</Link>
+            Pas encore inscrit ?{" "}
+            <Link href="/inscription">S'inscrire ici.</Link>
           </span>
         </div>
       </div>

@@ -1,10 +1,12 @@
 import Link from "next/link";
 
+import styles from "../styles/Footer.module.css";
+
 // Footer du site
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <nav className="">
+    <div className={styles.container}>
+      <nav>
         <Link href="/mentions">Mentions légales</Link>
         <Link href="/contact">Nous contacter</Link>
         <Link href="/faq">Foire aux questions</Link>
