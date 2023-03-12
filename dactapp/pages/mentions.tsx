@@ -6,6 +6,7 @@ const Mentions = () => {
     <div className={styles.container}>
       <h2>Mentions légales</h2>
       <p>Test push nouvelle branche</p>
+      <p>Test push gauthier</p>
     </div>
   );
 };
